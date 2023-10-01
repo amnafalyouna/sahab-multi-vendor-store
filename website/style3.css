@@ -1,0 +1,62 @@
+body{
+    margin-top: 0px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background-color: #fff!important;
+
+
+}
+
+nav .left img {
+    width: 150px;
+    padding-right: 30px;
+}
+
+nav .right {
+    margin-left: 25px;
+    display: flex;
+    color: rgb(105, 103, 102);
+
+}
+
+nav .right div {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.header-line {
+    margin-top: 0px;
+    height: 5px;
+    border: none;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+}
+
+nav .right button {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: none;
+    width: 130px;
+    height: 32px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(73, 185, 117);
+    cursor: pointer;
+  
+}
+
+nav .right button i {
+    padding-left: 5px;
+
+}
+p {
+    margin-top: 5px;
+}

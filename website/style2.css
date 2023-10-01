@@ -1,0 +1,304 @@
+body{
+    margin-top: 0px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    background-color: #fff!important;
+
+
+}
+
+nav .left img {
+    width: 150px;
+    padding-right: 30px;
+}
+
+nav .right {
+    margin-left: 25px;
+    display: flex;
+    color: rgb(105, 103, 102);
+
+}
+
+nav .right div {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.header-line {
+    margin-top: 0px;
+    height: 5px;
+    border: none;
+    background: linear-gradient(to right, rgba(255,208,7) 0%, rgba(255,208,7) 12.5%,rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%);
+}
+
+nav .right button {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: none;
+    width: 130px;
+    height: 32px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(73, 185, 117);
+    cursor: pointer;
+  
+}
+
+nav .right button i {
+    padding-left: 5px;
+
+}
+
+p {
+    margin-top: 5px;
+}
+
+hr {
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+
+.slider {
+   text-align: center;
+   margin-bottom: 0.8rem;
+    
+
+
+}
+.slider img {
+    border-radius: 4px;
+
+
+}
+
+.anchors {
+    margin-right: 180px;
+}
+
+.anchors a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #868e96;
+    text-decoration: none;
+    padding-left: 5px;
+    
+
+}
+
+.photo {
+    margin-right: 180px;
+    margin-top: 1rem;
+
+}
+
+.ads img {
+    display: block;
+}
+
+.ads {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+
+.contain {
+    margin-right: 180px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+.info {
+    color: rgb(105, 103, 102);
+    font-size: 1rem;
+}
+
+.info .num{
+    margin-bottom: 15px;
+    font-size: 1rem;
+
+
+
+}
+.info h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: rgb(54, 52, 51);
+    
+}
+
+.info .name {
+    margin-top: 35px;
+    font-size: 1rem;
+    color: rgb(105, 103, 102);
+
+
+}
+
+.contain .butt .in {
+    display: flex;
+    
+}
+
+.contain .butt {
+    position: absolute;
+    left: 450px;
+    top: 45px;
+}
+
+.contain .butt .alone {
+    position: relative;
+    left: -150px;
+    top: 5px;
+    height: 32px;
+    width: 140px;
+    color: rgb(105, 103, 102);
+    background-color: #fff;
+    border: 1px solid #76828e;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.contain .butt .in button {
+    height: 32px;
+    width: 140px;
+    font-size: 15px;
+    margin-right: 5px;
+    color: rgb(105, 103, 102);
+    border: 1px solid #76828e;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+ 
+
+.contain .butt .in i{
+    margin-right: 50px;
+}
+
+.discripe {
+    
+    border-radius: 2px 2px 4px 4px;
+    border-width: 0px 1px 1px;
+    border-color: rgb(205, 204, 204);
+    box-shadow: rgb(216 176 142) 0px -4px;
+    border-style: solid;
+    padding: 32px 24px;
+    margin-bottom: 16px;
+    margin-right: 180px;
+    margin-top: 15px;
+    width: 780px;
+}
+
+.discripe h5 {
+    color: rgb(54, 52, 51);
+    margin-bottom: 8px;
+    font-size: 20px;
+
+}
+
+.discripe p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: rgb(105, 103, 102);
+    line-height: 1.5;
+
+}
+
+.attrib {
+    width: 780px;
+    box-shadow: rgb(255 208 7) 0px -4px;
+    padding: 32px 24px;
+    border-radius: 2px 2px 4px 4px;
+    margin-bottom: 16px;
+    border-width: 0px 1px 1px;
+    border-color: rgb(205, 204, 204);
+    border-style: solid;
+    margin-top: 20px;
+    margin-right: 180px;
+
+}
+
+.attrib h5 {
+    color: rgb(54, 52, 51);
+    font-size: 20px;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+
+    
+
+}
+
+.attrib .table {
+    width: 100%;
+    padding: 32px 24px;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0px;
+    background-color: transparent;
+    color: rgb(105, 103, 102);
+    border-spacing: 2px;
+    border-color: gray;
+    border-collapse: collapse;
+    text-align: right;
+    line-height: 40px;
+
+}
+
+.attributes tr {
+    font-size: 13px;
+
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e9ecef;
+    padding: 2px;
+
+}
+
+.attrib .table td {
+    border-top: 1px solid #e9ecef;
+}
+
+.grandba h4 {
+    margin-right: 180px;
+    color: rgb(54, 52, 51);
+
+}
+
+.grandba .dad {
+  display: flex;
+  justify-content: center;
+}
+
+.grandba .dad .rotana, .hayat, .foru, .foru2 {
+  border-bottom: 1px solid rgb(239, 239, 239);
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 6px rgb(192 192 192);
+  margin-left: 20px;
+  
+
+}
+  
+  
